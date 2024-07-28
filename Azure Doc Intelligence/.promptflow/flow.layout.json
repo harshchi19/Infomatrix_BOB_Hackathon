@@ -1,0 +1,90 @@
+{
+  "orientation": "Vertical",
+  "nodeLayouts": {
+    "inputs": {
+      "x": 143,
+      "y": 62,
+      "index": -1
+    },
+    "outputs": {
+      "x": 373,
+      "y": 1382,
+      "index": -1
+    },
+    "Read_File": {
+      "x": 88,
+      "y": 172,
+      "index": 0
+    },
+    "Translator": {
+      "x": 88,
+      "y": 282,
+      "index": 1
+    },
+    "Parse_Translation": {
+      "x": 88,
+      "y": 392,
+      "index": 2
+    },
+    "Create_PII_Doc": {
+      "x": 32.5,
+      "y": 502,
+      "index": 3
+    },
+    "PII_Entity_Recognition": {
+      "x": 32.5,
+      "y": 612,
+      "index": 4
+    },
+    "Parse_PII": {
+      "x": 103,
+      "y": 722,
+      "index": 5
+    },
+    "Create_Redacted_Doc": {
+      "x": 213,
+      "y": 832,
+      "index": 6
+    },
+    "Entity_Recognition": {
+      "x": 599.5,
+      "y": 1052,
+      "index": 7
+    },
+    "Extractive_Summarization": {
+      "x": 23,
+      "y": 1162,
+      "index": 8
+    },
+    "Abstractive_Summarization": {
+      "x": 318,
+      "y": 942,
+      "index": 9
+    },
+    "Parse_Summary": {
+      "x": 318,
+      "y": 1052,
+      "index": 10
+    },
+    "Create_Summary_Doc": {
+      "x": 373,
+      "y": 1162,
+      "index": 11
+    },
+    "Sentiment_Analysis": {
+      "x": 373,
+      "y": 1272,
+      "index": 12
+    }
+  },
+  "viewport": {
+    "transformMatrix": [
+      1,
+      0,
+      0,
+      1,
+      41.84375,
+      141.60000610351562
+    ]
+  }
+}
