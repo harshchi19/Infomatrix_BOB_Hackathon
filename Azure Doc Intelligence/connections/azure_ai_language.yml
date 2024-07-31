@@ -2,6 +2,6 @@ $schema: https://azuremlschemas.azureedge.net/promptflow/latest/CustomConnection
 name: azure_ai_language_connection
 type: custom
 configs:
-  endpoint: "<azure-language-resource-endpoint>"
+  endpoint: "https://prnvpwr2612bobtrial-language.cognitiveservices.azure.com/"
 secrets: 
-  api_key: "<to-be-replaced>"
+  api_key: "268c3f45495e4b36930270073a10e0be"

@@ -2,7 +2,7 @@ $schema: https://azuremlschemas.azureedge.net/promptflow/latest/CustomConnection
 name: azure_ai_translator_connection
 type: custom
 configs:
-  endpoint: "<azure-translator-resource-endpoint>"
-  region: "<azure-translator-resource-region>"
+  endpoint: "https://prnvpwr2612bobtrial-translator.cognitiveservices.azure.com/"
+  region: "eastus"
 secrets: 
-  api_key: "<to-be-replaced>"
+  api_key: "ed9526fe57144a7f8d52c257ab3265dd"
